@@ -1,0 +1,4 @@
+#ignore jupyter checkpoint
+.ipynb_checkpoints
+#ignore kaggle data
+kaggle_data.yaml
