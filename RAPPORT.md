@@ -39,11 +39,10 @@ Les préférences sont triées selon les carristiques suivantes :
 - couleurs 
 - formats (carré, paysage, protrait)
 
-
-    2. Utilisation d'images sous licence libre
-
+Nos images sont sous licence libre et proviennent de Kaggle, qui est une plateforme web organisant des compétitions en science des données appartenant à Google. Sur cette plateforme, les entreprises proposent des problèmes en science des données et offrent un prix aux datalogistes obtenant les meilleures performances.
 
     4. Stockage et gestion des images et des métadonnées associées
+    
 2.  Étiquetage et annotation
     1. Approches automatisées de l'étiquetage
     2. Stockage et gestion des étiquettes et des annotations des images
