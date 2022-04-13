@@ -2,7 +2,6 @@
 
 Rapport
 
-Les principales tâches du projet sont présentées ci-dessous :
 
 1.  Collecte de données
 2.  Étiquetage et annotation
@@ -13,11 +12,6 @@ Les principales tâches du projet sont présentées ci-dessous :
 
 Votre tâche finale consiste à préparer un rapport de 4 pages sur le projet en format PDF, qui détaille les points suivants :
 
-Le but de votre projet est de créer un algorithme de recommandation des images en fonctions des préférences de l'utilisateur. Ce système de recommandation sert de filtrage de l'information visant à présenter la meilleure image qui serait susceptibles d'intéresser l'utilisateur.
-Pour cela, nous proposons à l'utilisateur dix images différentes, choisit aléatoirement parmis une centaine d'images, selon les carristiques suivantes : 
-- tailles 
-- couleurs 
-- formats (carré, paysage, protrait)
 
 
 Sources des données de vos images et leur licence.
@@ -32,14 +26,24 @@ Note : Veuillez n'ajouter aucun programme (ou code) dans ce rapport.
 
 Intro :
 
-Notre projet à pour but 
+Le but de notre projet est de créer un algorithme de recommandation des images en fonctions des préférences de l'utilisateur. Ce système de recommandation sert de filtrage de l'information visant à présenter la meilleure image qui serait susceptibles d'intéresser l'utilisateur.
+
+
 
 1.  Collecte de données
     1. Approches automatisées de la collecte de données
 
+Pour collecter ces données, nous demanont ensuite à l'utilisateur de classer une collection d'images en fonction de sa préférence, en choisissant le meilleur. Pour cela, nous avons une base de centaines d'images et nous en tiront dix aléatoirement.
+Les préférences sont triées selon les carristiques suivantes : 
+- tailles 
+- couleurs 
+- formats (carré, paysage, protrait)
+
 
     2. Utilisation d'images sous licence libre
-    3. Stockage et gestion des images et des métadonnées associées
+
+
+    4. Stockage et gestion des images et des métadonnées associées
 2.  Étiquetage et annotation
     1. Approches automatisées de l'étiquetage
     2. Stockage et gestion des étiquettes et des annotations des images
