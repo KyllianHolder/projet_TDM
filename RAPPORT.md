@@ -45,13 +45,29 @@ Pour analyser les données, nous utilisons l'implémentation Kmeans, qui consist
 
 4.  Visualisation des données
 
+Nous avons fait un profil de like, calculer qu'une seule fois, mais à l'avenir nous souhaiterons rajouter un systeme qui nou spermettrait de liker les photos en continuité et d'adapter ce profil utilisateur en fonction de ses likes en fonctions de ses gouts, cela permettrait d'être plus précis.
+
     1. Types de techniques de visualisation utilisées
     2. Utilisation de matplotlib
 
 
 5.  Système de recommandation
-    1. Stockage et gestion des préférences et du profil de l'utilisateur
-    2. Utilisation d'algorithmes de recommandation
+
+Notre système de recommandation actuel permet de proposer une image selon les gouts préalablement étudé de l'utilisateur. Pour le moment, nous n'avons pas crée de profil d'utilisateur à prorprement parlé, mais plutot un profil de like, l'utilisateur choisit d'aimer ou non une image lui étant proposé.
+
+Quant au filtrage, il est basé sur le contenu. En effet, ce système qu'on utilise à pour but de faire des prévisions sur les goûts explicites de nos utilisateurs. C'est-à-dire que ce sera à notre utilisateur de donner son opinion, sur les propositions d'images qui lui est accessible. 
+Cette méthode est notament utilsé par le celebre service de streaming Netflix, car ce site permet de donner son avis sur des produits.
+
+Cette méthode présente deux avantages :
+
+On peut facilement reconstruire l'historique d'un individu
+On évite d'agréger des informations qui ne correspondent pas à un unique utilisateur (plusieurs personnes sur un même poste ou une personne agissant pour le compte d'autrui)
+Son principal défaut étant que les informations recueillies peuvent contenir un biais dit de déclaration.
+
+Pour le stockage et la gestion des préférences et du profil de l'utilisateur, on utilise un dictionnaire.
+    
+La limite de notre proposition est qu'on prend en compte tous les paramètres pour la recommandation, mais on définit pas le paramètre le plus important pour l'utilisateur, cela reste un axe d'amélioration qu'on souhaiterait produire avant de commencer la partie 2. 
+
 
 6.  Tests
 
