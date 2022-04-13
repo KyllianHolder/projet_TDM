@@ -24,7 +24,7 @@ Nos images sont sous licence libre et proviennent de Kaggle, qui est une platefo
 
 Nous avons téléchargé ca data set de 100 images et avons crée un repository sur GitHub, nous clonons via une commande git les images, qui arrivent ensuite directement dans un dossier situé sur notre projet d'algoritheme de recommandation.
 
-On enregistre les métadonnées de chaque images dans un ou plusieurs fichiers JSON, les préférences sont triées selon les carristiques suivantes : 
+On enregistre les métadonnées de chaque images dans un ou plusieurs fichiers JSON, les préférences sont triées selon les carristiques suivantes :
 - tailles 
 - le format de l'image (.jpeg, .png, etc.)
 - couleurs 
@@ -45,7 +45,6 @@ Pour analyser les données, nous utilisons l'implémentation Kmeans, qui consist
 
 4.  Visualisation des données
 
-
     1. Types de techniques de visualisation utilisées
     2. Utilisation de matplotlib
 
@@ -56,12 +55,10 @@ Pour analyser les données, nous utilisons l'implémentation Kmeans, qui consist
 
 6.  Tests
 
-
     1. Présence de tests fonctionnels
     2. Présence de tests utilisateurs
 
 7.  Rapport
-
 
     1. Clarté de la présentation
     2. Présence d'une introduction et d'une conclusion claires, architecture
