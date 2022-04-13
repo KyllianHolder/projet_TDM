@@ -3,16 +3,7 @@
 Rapport
 
 
-1.  Collecte de données
-2.  Étiquetage et annotation
-3.  Analyses de données
-4.  Visualisation des données
-5.  Système de recommandation
-6.  Tests
-
 Votre tâche finale consiste à préparer un rapport de 4 pages sur le projet en format PDF, qui détaille les points suivants :
-
-
 
 Sources des données de vos images et leur licence.
 Taille de vos données.
@@ -31,22 +22,25 @@ Le but de notre projet est de créer un algorithme de recommandation des images 
 
 
 1.  Collecte de données
-    1. Approches automatisées de la collecte de données
 
-Pour collecter ces données, nous demanont ensuite à l'utilisateur de classer une collection d'images en fonction de sa préférence, en choisissant le meilleur. Pour cela, nous avons une base de centaines d'images et nous en tiront dix aléatoirement.
+
+Nos images sont sous licence libre et proviennent de Kaggle, qui est une plateforme web organisant des compétitions en science des données appartenant à Google. Sur cette plateforme, les entreprises proposent des problèmes en science des données et offrent un prix aux datalogistes obtenant les meilleures performances.
+
+Nous avons téléchargé ces images et avons crée un repository sur GitHub, nous clonons via une commande git les images, qui arrivent ensuite directement dans un dossier situé sur notre projet d'algoritheme de recommandation.
+
+Pour leurs stockages, nous enregistrons les images dans des dossiers et nous stockons les métadonnées dans un fichier .json
+
+2.  Étiquetage et annotation
+
+Pour collecter ces données, nous demandont à l'utilisateur de classer une collection d'images en fonction de sa préférence. Pour cela, nous avons une base de centaines d'images et nous en tiront dix aléatoirement.
 Les préférences sont triées selon les carristiques suivantes : 
 - tailles 
 - couleurs 
 - formats (carré, paysage, protrait)
 
-Nos images sont sous licence libre et proviennent de Kaggle, qui est une plateforme web organisant des compétitions en science des données appartenant à Google. Sur cette plateforme, les entreprises proposent des problèmes en science des données et offrent un prix aux datalogistes obtenant les meilleures performances.
-
-    4. Stockage et gestion des images et des métadonnées associées
-    
-2.  Étiquetage et annotation
-    1. Approches automatisées de l'étiquetage
-    2. Stockage et gestion des étiquettes et des annotations des images
-    3. Utilisation d'algorithmes de classification et de regroupement
+Pour effectuer cette recommandation, une question va lui être posé, lui demandant s'il aime ou non l'image que nous lui proposont, il fait cela dix fois, et nous analysons les caractéristiques des images qu'il a choisit.
+Lorsque cette analyse est effectué, à la fin nous lui montront une image choisit selon notre algorithme, qui ressort une image qu'il serait susceptible d'apprecier.
+   
 3.  Analyses de données
     1. Types d'analyses utilisées
     2. Utilisation de Pandas et Scikit-learn
