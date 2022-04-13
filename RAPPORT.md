@@ -13,7 +13,12 @@ Les principales tâches du projet sont présentées ci-dessous :
 
 Votre tâche finale consiste à préparer un rapport de 4 pages sur le projet en format PDF, qui détaille les points suivants :
 
-Le but de votre projet est de créer un algorithme de recommandation des images en fonctions des préférences de l'utilisateur. Ce système de recommandation sert de filtrage de l'information cherchant à présenter la meilleure image qui serait susceptibles d'intéresser l'utilisateur.
+Le but de votre projet est de créer un algorithme de recommandation des images en fonctions des préférences de l'utilisateur. Ce système de recommandation sert de filtrage de l'information visant à présenter la meilleure image qui serait susceptibles d'intéresser l'utilisateur.
+Pour cela, nous proposons à l'utilisateur dix images différentes, choisit aléatoirement parmis une centaine d'images, selon les carristiques suivantes : 
+- tailles 
+- couleurs 
+- formats (carré, paysage, protrait)
+
 
 Sources des données de vos images et leur licence.
 Taille de vos données.
