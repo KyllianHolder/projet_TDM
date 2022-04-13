@@ -80,7 +80,11 @@ La limite de notre proposition est qu'on prend en compte tous les paramètres po
     1. Présence de tests fonctionnels
     2. Présence de tests utilisateurs
 
-7.  Rapport
+Conclusion
+
+
+
+Rapport
 
     1. Clarté de la présentation
     2. Présence d'une introduction et d'une conclusion claires, architecture
