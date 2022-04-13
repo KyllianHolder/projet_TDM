@@ -41,7 +41,12 @@ Lorsque cette analyse est effectué, à la fin nous lui montront une image chois
    
 3.  Analyses de données
 
-Pour analyser les données, nous utilisons l'implémentation Kmeans, qui consiste à regrouper les éléments de notre jeu de donnée en groupes, appelés clusters. Le but est de faire ressortir les patterns cachés dans la donnée en regroupant les éléments qui se « ressemblent ».
+Pour analyser les données, nous utilisons l'implémentation Kmeans, qui consiste à regrouper les éléments de notre jeu de donnée en groupes, appelés clusters. Le but est de faire ressortir les patterns cachés dans la donnée en regroupant les éléments qui se « ressemblent ». 
+Nous récuperons une sélection d'informations sur laquelle va se baser notre système de filtrage en 3 étapes :
+1) On receuille l'information
+2) On bâti une matrice contenant l'information
+3) On extrait à partir de cette matrice une suggestion d'image
+
 
 4.  Visualisation des données
 
@@ -55,7 +60,7 @@ Nous avons fait un profil de like, calculer qu'une seule fois, mais à l'avenir 
 
 Notre système de recommandation actuel permet de proposer une image selon les gouts préalablement étudé de l'utilisateur. Pour le moment, nous n'avons pas crée de profil d'utilisateur à prorprement parlé, mais plutot un profil de like, l'utilisateur choisit d'aimer ou non une image lui étant proposé.
 
-Quant au filtrage, il est basé sur le contenu. En effet, ce système qu'on utilise à pour but de faire des prévisions sur les goûts explicites de nos utilisateurs. C'est-à-dire que ce sera à notre utilisateur de donner son opinion, sur les propositions d'images qui lui est accessible. 
+Quant au filtrage, on utilise un filtrage collaboratif mais basé sur le contenu. En effet, ce système qu'on utilise à pour but de faire des prévisions sur les goûts explicites de nos utilisateurs. C'est-à-dire que ce sera à notre utilisateur de donner son opinion, sur les propositions d'images qui lui est accessible. 
 Cette méthode est notament utilsé par le celebre service de streaming Netflix, car ce site permet de donner son avis sur des produits.
 
 Cette méthode présente deux avantages :
@@ -63,6 +68,7 @@ Cette méthode présente deux avantages :
 On peut facilement reconstruire l'historique d'un individu
 On évite d'agréger des informations qui ne correspondent pas à un unique utilisateur (plusieurs personnes sur un même poste ou une personne agissant pour le compte d'autrui)
 Son principal défaut étant que les informations recueillies peuvent contenir un biais dit de déclaration.
+
 
 Pour le stockage et la gestion des préférences et du profil de l'utilisateur, on utilise un dictionnaire.
     
