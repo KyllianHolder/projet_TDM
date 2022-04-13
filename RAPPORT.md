@@ -41,11 +41,7 @@ Lorsque cette analyse est effectué, à la fin nous lui montront une image chois
    
 3.  Analyses de données
 
-Pour analyser les données, nous utilisons 
-
-    1. Types d'analyses utilisées
-    2. Utilisation de Pandas et Scikit-learn
-    3. Utilisation d'algorithmes d'exploration de données
+Pour analyser les données, nous utilisons l'implémentation Kmeans, qui consiste à regrouper les éléments de notre jeu de donnée en groupes, appelés clusters. Le but est de faire ressortir les patterns cachés dans la donnée en regroupant les éléments qui se « ressemblent ».
 
 4.  Visualisation des données
 
